@@ -124,6 +124,6 @@ public class DirHandle implements IDirHandle {
 
 	public static void main(String []a)
 	{
-	new DirHandle().doDir("G:\\我的ps作品").doCheck();
+		new DirHandle().doDir("G:\\我的ps作品").doCheck();
 	}
 }
