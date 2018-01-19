@@ -108,6 +108,7 @@ public class DirHandle implements IDirHandle {
 		}
 	}
 
+	//文件的处理程序
 	public void handle(File file) {
 		long ln = file.length();
 		String sz = ln + "";
